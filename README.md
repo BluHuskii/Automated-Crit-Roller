@@ -1,4 +1,4 @@
-# Critical Fumble
+# Crit Roller
 Do you find yourself forgetting to roll on the critical hit table? The critical fumble table?
 Do you find yourself forgetting to roll that pesky loot table after each monster dies?
 
