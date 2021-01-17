@@ -7,7 +7,7 @@ Critical-fumble will automatically roll on the critical hit tables in the event 
 
 Additionally, every time a *targeted* monster is felled by your players, the CR table is rolled! 
 To further your convience, the coins dropped can be automatically distributed to your players. This option can be ignored though!
-The origional credit for the module goes out to JacobMcAuley for the crit tables and the origional macros. Myself and Alejo160 on Reddit made a few changes to make the module easier to set up and created a macro to 90% automate the rolls.
+The original credit for the module goes out to JacobMcAuley for the crit tables and the original macros. Myself and Alejo160 on Reddit made a few changes to make the module easier to set up and created a macro to 90% automate the rolls.
 
 ## Features:
 See the [examples](##Examples) for video demonstrations!
