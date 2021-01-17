@@ -1,0 +1,85 @@
+Just Copy+Paste this macro to your macro bar
+
+
+let d = new Dialog({
+    title: "Test Dialog",
+    content: "<p>Choose Damage Type</p>",
+    buttons: {
+     one: {
+      icon: '<i class="fas fa-check"></i>',
+      label: "Bludgeoning",
+      callback: () => { const table = game.tables.entities.find(t => t.name === "Bludgeoning");
+      table.draw();}
+     },
+     two: {
+      icon: '<i class="fas fa-times"></i>',
+      label: "Slashing",
+      callback: () => { const table = game.tables.entities.find(t => t.name === "Slashing");
+      table.draw();}
+     },
+     three: {
+      icon: '<i class="fas fa-times"></i>',
+      label: "Piercing",
+      callback: () => { const table = game.tables.entities.find(t => t.name === "Piercing");
+      table.draw();}
+     },
+     Four: {
+        icon: '<i class="fas fa-times"></i>',
+        label: "Fire",
+      callback: () => { const table = game.tables.entities.find(t => t.name === "Fire");
+      table.draw();}
+       },
+       Five: {
+        icon: '<i class="fas fa-times"></i>',
+        label: "Poison",
+      callback: () => { const table = game.tables.entities.find(t => t.name === "Poison");
+      table.draw();}
+       },
+       Six: {
+        icon: '<i class="fas fa-times"></i>',
+        label: "Cold",
+      callback: () => { const table = game.tables.entities.find(t => t.name === "Cold");
+      table.draw();}
+       },
+       Seven: {
+        icon: '<i class="fas fa-times"></i>',
+        label: "Lightning",
+      callback: () => { const table = game.tables.entities.find(t => t.name === "Lightning");
+      table.draw();}
+       },
+       Eight: {
+        icon: '<i class="fas fa-times"></i>',
+        label: "Necrotic",
+      callback: () => { const table = game.tables.entities.find(t => t.name === "Necrotic");
+      table.draw();}
+       },
+       Nine: {
+        icon: '<i class="fas fa-times"></i>',
+        label: "Radiant",
+      callback: () => { const table = game.tables.entities.find(t => t.name === "Radiant");
+      table.draw();}
+       },
+       Ten: {
+        icon: '<i class="fas fa-times"></i>',
+        label: "Psychic",
+      callback: () => { const table = game.tables.entities.find(t => t.name === "Psychic");
+      table.draw();}
+       },
+       Eleven: {
+        icon: '<i class="fas fa-times"></i>',
+        label: "Force",
+      callback: () => { const table = game.tables.entities.find(t => t.name === "Force");
+      table.draw();}
+       },
+       Twelve: {
+        icon: '<i class="fas fa-times"></i>',
+        label: "Thunder",
+      callback: () => { const table = game.tables.entities.find(t => t.name === "Thunder");
+      table.draw();}
+       },
+    },
+    default: "two",
+    render: html => console.log("Register interactivity in the rendered dialog"),
+    close: html => console.log("This always is logged no matter which option is chosen")
+   });
+   d.render(true);
