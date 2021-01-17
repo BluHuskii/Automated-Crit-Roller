@@ -40,7 +40,7 @@ Auto-Installation Instructions:
 5. Inside of your FVTT game world, navigate the the gears in the top right corner.
 6. Select "Manage Modules" and enable Critical Fumble
 7. Copy + Paste the Crit Call macro from the CritCall.txt to a new macro on your macro bar
-  7A. Please DM me if you run in to issues at BluHuskii here on GitHub or on Reddit BluHuskii#0978 on Discord
+7A. Please DM me if you run in to issues at BluHuskii here on GitHub or on Reddit BluHuskii#0978 on Discord
 8. Enjoy!
 
 ## Usage
